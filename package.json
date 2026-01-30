@@ -1,0 +1,20 @@
+{
+  "name": "prothesi",
+  "version": "1.0.0",
+  "description": "Intent-based keyword recognition and classification for Billing requests",
+  "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node tests/runner.js",
+    "lint": "eslint .",
+    "fix": "eslint . --fix"
+  },
+  "author": "Ivan Huz",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^9.39.2",
+    "eslint-config-metarhia": "^9.1.5"
+  }
+}
